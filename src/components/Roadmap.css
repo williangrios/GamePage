@@ -1,0 +1,15 @@
+.section-roadmap{
+    background-color: green;
+    color: white;
+    line-height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.section-roadmap h1{
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-shadow: 3px 3px #343434;
+    font-weight: bold;
+}

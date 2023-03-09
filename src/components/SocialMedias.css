@@ -1,0 +1,28 @@
+:root{
+  --width-max: 800px;
+  --dark-gray: #343434;
+}
+
+.social-medias{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 0.5em;
+    cursor: pointer;
+    width: var(--width-max);
+    margin: auto;
+    color: var(--dark-gray);
+    align-items: center;
+  }
+
+  .icons{
+    width: 30px;
+    margin: 6px;
+  }
+  
+  @media (max-width: 800px) {
+    .social-medias{
+      justify-content: left;
+    }
+  }
+  

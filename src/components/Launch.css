@@ -1,0 +1,30 @@
+.section-launch{
+    background-color: var(--dark-gray);
+    color: white;
+    line-height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.section-launch h1{
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-shadow: 3px 3px black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-launch > div{
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  
+    section h1{
+      font-size: 1.8em;
+    }
+  
+  }
